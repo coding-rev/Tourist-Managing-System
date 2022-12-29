@@ -14,4 +14,7 @@ router.register("sites", views.SiteViewSet)
 
 urlpatterns = [
     path("", include(router.urls)),
+    path("report/", views.TouristPaymentReportView.as_view()),
+    path("zoo/", views.ZooPaymentsView.as_view()),
+    path('tourists/no-payment/', views.NoSitePaymentsView.as_view())
 ]
