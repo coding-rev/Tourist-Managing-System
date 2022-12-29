@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     # local apps
     "tourist",
+    "payment",
     # Third party apps
     "rest_framework",
     "drf_yasg",
